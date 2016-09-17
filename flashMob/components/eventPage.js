@@ -127,7 +127,6 @@ export class EventPage extends Component {
           <Image style={styles.instagramPhoto} source={{uri: this.state.images[2]}}/>
           <Image style={styles.instagramPhoto} source={{uri: this.state.images[3]}}/>
 
-          <Text style={styles.eventText}>{this.props.description}</Text>
 
           <TouchableHighlight style={styles.deleteEventButton} underlayColor='white' backwardToEvents={this._backwardToEvents} props={this.props} onPress={this.deleteEvent}>
             <Text style={styles.deleteButtonText}>Delete Event</Text>

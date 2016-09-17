@@ -12,6 +12,8 @@ import {
   NavigatorIOS
 } from 'react-native';
 
+console.disableYellowBox = true;
+
 //testing to use navigatorIOS for testing purposes, but would need to explore how to get user to a different screen without using a stack
 const styles = StyleSheet.create({
   navigator: {flex: 1}
